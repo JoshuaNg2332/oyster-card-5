@@ -1,5 +1,6 @@
 require './lib/oystercard'
-#require './lib/station'
+#require './lib/journeylog'
+require './lib/station'
 
 describe Oystercard do
   subject(:oystercard) { Oystercard.new }

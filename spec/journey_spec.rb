@@ -42,4 +42,5 @@ describe "fare" do
       expect(oystercard.journey.fare).to eq Journey::PENALTY_FARE
     end
 end
+
 end

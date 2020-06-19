@@ -5,6 +5,9 @@ PENALTY_FARE = 6
 
   def initialize(entry_station = nil)
     @entry_station = entry_station
+  end
+
+  def finish(exit_station = nil)
     @exit_station = exit_station
   end
 
@@ -15,4 +18,5 @@ PENALTY_FARE = 6
   def complete?
     @entry_station != nil && @exit_station != nil
   end
+
 end
